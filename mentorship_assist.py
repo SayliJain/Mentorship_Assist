@@ -80,7 +80,7 @@ def match_algorithm(mentee_answers, mentors):
         ]
     )
     matched_mentors = response.choices[0].message.content.strip().split('\n')
-    return matched_mentors[:3]
+    return matched_mentors[:6]
 
 def main():
     st.title("Mentorship Program")
