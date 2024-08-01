@@ -34,7 +34,7 @@ import openai
 from datetime import datetime
 
 st.sidebar.title("Notice")
-st.sidebar.info("The database contains only few mentors in the field of Python and Artificial Intelligence. It is continuously being updated as new mentors are resgistered. Feel free to register yourself as a mentor")
+st.sidebar.info("The database contains only few mentors in the field of Python and Artificial Intelligence. It is continuously being updated as new mentors are resgistered. Feel free to register yourself as a mentor!")
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 # Set up OpenAI API key
